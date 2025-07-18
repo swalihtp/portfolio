@@ -1,0 +1,110 @@
+body {
+    font-family: 'Titillium Web';
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.box div{
+    height: 450px;
+}
+.man {
+    height: 450px;
+    object-fit: cover;
+    width:100%;
+}
+
+
+.logo {
+  font-family: 'Tektur';
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+/* skills css */
+
+.skills-section {
+    max-width: 1000px;
+    padding: 50px 20px;
+    margin: auto;
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 50px;
+  }
+  .skill-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .progress-bar {
+    background-color: white;
+    height: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: none;
+  }
+  .progress-bar span {
+    background-color: red;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+    
+  }
+  .html span { width: 75%;}
+  .css span { width: 75%;}
+  .js span { width: 45%;}
+  .bootstrap span { width: 35%;}
+  .c span { width: 25%;}
+  .msoffice span { width: 75%;}
+
+  @media (max-width:850px){
+    .skill-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* project section*/
+
+  .project-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+    }
+    .project {
+      width: 100%;
+      max-width: 400px;
+      overflow: hidden;
+      border: 1px solid white;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    .project-image {
+      object-fit: contain;
+      height: 350px;
+      aspect-ratio: 1/1;
+    }
+    @media(max-width:850px){
+      .project-grid {
+        grid-template-columns: 1fr;
+        place-items: center;
+      }
+    }
+    @media(max-width:850px){
+      .project{
+        max-width: 100%;
+      }
+    }
