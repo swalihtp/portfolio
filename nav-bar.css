@@ -32,7 +32,7 @@ body {
 }
 .social-icons img {
   width: 40px;   /* adjust as needed */
-  height: 30px;  /* keep square */
+  height: 40px;  /* keep square */
 }
 
 
@@ -119,5 +119,6 @@ body {
         max-width: 100%;
       }
     }
+
 
 
