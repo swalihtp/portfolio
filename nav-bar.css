@@ -30,6 +30,10 @@ body {
   text-decoration: none;
 
 }
+.social-icons img {
+  width: 30px;   /* adjust as needed */
+  height: 30px;  /* keep square */
+}
 
 
 
@@ -115,3 +119,4 @@ body {
         max-width: 100%;
       }
     }
+
