@@ -31,8 +31,8 @@ body {
 
 }
 .social-icons img {
-  width: 40px;   /* adjust as needed */
-  height: 40px;  /* keep square */
+  width: 60px;   /* adjust as needed */
+  height: 60px;  /* keep square */
 }
 
 
@@ -119,6 +119,7 @@ body {
         max-width: 100%;
       }
     }
+
 
 
 
