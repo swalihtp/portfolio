@@ -30,10 +30,10 @@ body {
   text-decoration: none;
 
 }
-.social-icons img {
+/* .social-icons img {
   width: 60px;   /* adjust as needed */
   height: 60px;  /* keep square */
-}
+} */
 
 
 
@@ -119,6 +119,7 @@ body {
         max-width: 100%;
       }
     }
+
 
 
 
